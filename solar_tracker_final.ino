@@ -1,5 +1,5 @@
 #include <Servo.h>
-//definiamo i servomotori orizzontale e verticale
+
 Servo servohori;
 int servoh = 90;
 int servohLimitHigh = 90;
@@ -22,8 +22,7 @@ int ldrbotr = 0; // bottom right
   servoverti.attach(9, 1000, 2200);
   servoverti.write(0);
   Serial.begin(9600);
-  delay(500);
-  
+  delay(500); 
  }
 
 void loop()
