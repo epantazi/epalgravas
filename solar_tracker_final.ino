@@ -29,12 +29,12 @@ void loop()
 {
   servoh = servohori.read();
   servov = servoverti.read();
-  //Valore Analogico delle fotoresistenza
+  
   int topl = analogRead(ldrtopl);
   int topr = analogRead(ldrtopr);
   int botl = analogRead(ldrbotl);
   int botr = analogRead(ldrbotr);
-  // Calcoliamo una Media
+  
   int avgtop = (topl + topr) ; //average of top 
   int avgbot = (botl + botr) ; //average of bottom 
   int avgleft = (topl + botl) ; //average of left 
