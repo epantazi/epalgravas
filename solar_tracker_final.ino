@@ -10,10 +10,10 @@ int servov = 0;
 int servovLimitHigh = 180;
 int servovLimitLow = 0;
 //Pin fotoresistenze
-int ldrtopl = 2; //top left 
-int ldrtopr = 1; //top right 
-int ldrbotl = 3; // bottom left 
-int ldrbotr = 0; // bottom right 
+int ldrtopl = 0; //top left 
+int ldrtopr = 2; //top right 
+int ldrbotl = 1; // bottom left 
+int ldrbotr = 3; // bottom right 
 
  void setup () 
  {
