@@ -1,7 +1,7 @@
 #include <Servo.h>
 
 Servo servohori;
-int servoh = 90;
+int servoh = 0;
 int servohLimitHigh = 90;
 int servohLimitLow = 0;
 
@@ -21,7 +21,6 @@ int ldrbotr = 3; // bottom right
   servohori.write(0);
   servoverti.attach(9, 1000, 2200);
   servoverti.write(0);
-  Serial.begin(9600);
   delay(500); 
  }
 
